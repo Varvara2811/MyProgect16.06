@@ -1,0 +1,208 @@
+:root{
+    --main-color:#7BC8A4;
+    --secondary-color:#fccaca;
+    --background-color:#FFF9F5;
+    --text-color:#4A4A4A;
+    --accent-color: #FF9F68;
+}
+body{
+    background-color: var(--background-color);
+}
+.box{
+    width: 1300px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 1px solid red;
+}
+.header{
+    display: flex;
+}
+.header-list{
+    display: flex;
+    gap: 140px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
+  padding-top: 10px;
+}
+.header-items{
+display: flex;
+gap: 50px;
+padding-bottom: 10px;
+  padding-top: 10px;
+}
+.header-link{
+    font-size: 20px;
+    color: var(--text-color);
+}
+.header-logo{
+    font-family: Oswald;
+color: var(--text-color);
+font-size: 25px;
+}
+.header-span{
+    color: yellowgreen;
+}
+.hero{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color: var(--main-color);
+}
+.hero-title{
+    font-family: Oswald;
+    color: var(--text-color);
+    font-size: 40px;
+line-height: 1.26;
+text-align: center;
+}
+.hero-text{
+  padding-top: 20px;
+    color: var(--text-color);
+    font-size: 27px;
+    line-height: 1.24;
+    text-align: center;
+}
+.advantages{
+    padding-bottom: 80px;
+    padding-top: 80px;
+}
+.adv-title{
+    font-family: Oswald;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 35px;
+font-style: normal;
+line-height: normal;
+padding-bottom: 50px;
+color: var(--text-color);
+}
+.adv-img{
+    width: 100px;
+    height: 100px;
+}
+.adv-subtitle{
+    font-family: Oswald;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 0.78px;
+color: var(--text-color);
+}
+.adv-text{
+   font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 1.08px;
+color: var(--text-color);
+width: 600px;
+}
+.adv-list{
+     display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-left: 25px;
+}
+.adv-button{
+     margin: 0 auto;
+    padding:10px 10px 10px 10px;
+    color:palevioletred;
+    background-color:pink;
+    font-size: 20px;
+    border-radius: 20px;
+}
+.wrap{
+    margin-top: 20px;
+}
+.container{
+    width: 1300px;
+    outline: 1px solid red;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 90px;
+}
+.wrapper{
+    overflow: hidden;
+    width: 350px;
+    height: 550px;
+    border-radius: 25px;
+    background-color: var(--accent-color);
+box-shadow:  0 10px 20px rgba(0, 0, 0, 0.15),
+  0 20px 40px rgba(0, 0, 0, 0.12),
+  0 30px 60px rgba(0, 0, 0, 0.1);
+}
+.card-img{
+    width: 350px;
+    height: 250px;
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+     font-family: Oswald;
+     color: var(--text-color);
+}
+.card-text{
+ font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1.08px;
+color: var(--text-color);
+width: px;
+padding-left: 20px;
+padding-right: 20px;
+text-align: center;
+margin-bottom: 50px;
+}
+.card-button{
+    padding: 15px 15px 15px 15px;
+    display: block;
+margin: 0 auto;
+background-color: pink;
+color: palevioletred;
+font-size: 20px;
+font-family: Oswald;
+border-radius: 20px;
+}
+.footer{
+    color: var(--text-color);
+    font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 1.08px;
+    background-color: var(--main-color);
+    padding-bottom: 90px;
+    padding-top: 90px;
+}
+.holder{
+    width: 1300px;
+    outline: 1px solid red;
+    margin-left: 50px;
+}
+.footer-list{
+    display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-top: 30px;
+  gap: 6px;
+}
+.footer-contacts{
+    color: var(--text-color);
+}
+.footer-logo{
+    font-family: Oswald;
+color: var(--text-color);
+font-size: 25px;
+}
