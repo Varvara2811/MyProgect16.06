@@ -330,11 +330,11 @@ box-shadow:  0 10px 20px rgba(0, 0, 0, 0.15),
 }
 .card:hover .team-text{
     opacity: 1;
-    transform: translateX(30px);
+    transform: translateX(35px);
 }
 .card:hover .team-title{
     opacity: 1;
-    transform: translateX(30px);
+    transform: translateX(35px);
 }
 .card:hover{
     transform: scale(1.1);
